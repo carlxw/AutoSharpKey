@@ -30,15 +30,6 @@ class Mouse
     }
 
     /// <summary>
-    /// Writes the current mouse position to the console upon call
-    /// </summary>
-    public static void printMousePos()
-    {
-        int[] pos = mouseGetPos();
-        Console.Write("{0}, {1}", pos[0], pos[1]);
-    }
-
-    /// <summary>
     /// Move mouse to specified location
     /// </summary>
     /// <param name="x">x-position to move mouse to</param>
